@@ -1,10 +1,11 @@
 .bodyarea{
     width:500px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height:800px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/616pKgQptvL.jpg")
    }
    .turn{
-       margin-left:530px;
+       margin-left:auto;
        margin-top:30px;
        font-size:20px;
        font-size: 30px;
@@ -47,142 +48,25 @@
    .container{
        display:grid;
        grid-template-columns:1fr 1fr 1fr;
-       grid-template-rows:  1fr 1fr 1fr;
-       grid-gap:5px;
+       /* grid-template-rows:  1fr 1fr 1fr; */
+       grid-gap:1em;
        height:40px;
-       margin-left:500px;
+       grid-auto-rows: minmax(100px,auto);
+       
        
    }
 
    .box1{
        background-color:white;
-       border: 3px solid black;
-       grid-area: 1 / 1 / 1 /1;
+       border: 1px solid black;
        height:80px;
-       margin-left:20px;
+       width: 80px;
+       grid-gap:1em;
        margin-top: 50px;
-       width:80px;
-       background:lawngreen;
+       background:rgb(0, 202, 252);
        font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-   
-   }
-   .box2{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 2 / 1 / 1 /2;
-       height:80px;
-       margin-left:10px;
-       margin-top: 50px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       font-family:sans-serif;
-       cursor:alias;
-   
-   }
-
-   .box3{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 3 / 1 / 1 /4;
-       height:80px;
-       margin-left:10px;
-       margin-top: 50px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-       font-family:sans-serif;
-   
-   }
-
-   .box4{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 1 / 1 / 1 /1;
-       height:80px;
-       margin-left:20px;
-       margin-top: 20px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-   
-   }
-
-   .box5{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 2 / 1 / 1 /3;
-       height:80px;
-       margin-left:10px;
-       margin-top: 20px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-   }
-   .box6{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 3 / 1 / 1 /4;
-       height:80px;
-       margin-left:10px;
-       margin-top: 20px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-   
-   }
-
-   .box7{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 1 / 1 / 1 /1;
-       height:80px;
-       margin-left:20px;
-       margin-top: 20px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
+       border-radius: 20px;
        cursor:alias;
    
    }
    
-   .box8{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 2 / 1 / 1 /3;
-       height:80px;
-       margin-left:10px;
-       margin-top: 20px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-   
-   }
-   .box9{
-       background-color:white;
-       border: 3px solid black;
-       grid-area: 3 / 1 / 1 /4;
-       height:80px;
-       margin-left:10px;
-       margin-top: 20px;
-       width:80px;
-       background:lawngreen;
-       font-size:50px;
-       border-radius: 20px 20px 20px 20px;
-       cursor:alias;
-   
-   }
